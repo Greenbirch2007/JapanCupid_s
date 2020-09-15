@@ -32,7 +32,7 @@ def call_page(url):
     driver.find_element_by_xpath('//*[@id="form-login-password"]').send_keys("123456aaa")# 密码
     driver.find_element_by_xpath('/html/body/div[3]/div/div/div[1]/form/button').click()
 
-    time.sleep(90)
+    time.sleep(10)
 
 
 
